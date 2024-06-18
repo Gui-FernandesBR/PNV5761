@@ -1,0 +1,7 @@
+jupyter
+numpy< 2.0
+matplotlib
+scipy
+ortools
+black[jupyter]
+docplex # vem com limite de equacoes para versao gratuita
