@@ -1,5 +1,5 @@
-Diretrizes Básicas
-==================
+Leitura pré-aula 01
+===================
 
 Diretrizes básicas aplicadas a diversos problemas:
 
