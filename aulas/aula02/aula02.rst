@@ -1,7 +1,9 @@
 Aula 02
 =======
 
-- Professor vai resolver os 6 exercícios da primeira aula.
+25 de Junho de 2024.
+
+- Professor vai resolver os 6 primeiros exercícios da primeira aula.
 - Percebi que errei feio os exercícios 2 e 3. O 3 era um dos mais difíceis mesmo. 
 - Essencialmente foram erros e interpretação do enunciado.
 - A questão 4 foi a mais complexa, professor deixou para o final.

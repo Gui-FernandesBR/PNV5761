@@ -1,6 +1,8 @@
 Aula 03
 =======
 
+2 de julho de 2024
+
 "Uma amiga minha fez essa disciplina e disse que vale por 3."
 
 Professor começa pela questão de numero 7
@@ -16,16 +18,4 @@ Vi que o prof escolheu 8 e 6 padrões de corte diferentes.
 - Esse exercício 9 foi bem mais complicado do que o restante. 
 - Prof pulou o exercício 10 e foi direto para o 11, devido ao tempo ser curto. 
 
-
-TODO: passar a limpo esses primeiros exercícios.
-
-.. Bate papo com o Luiz na civil.
-
-.. "Luiz, vc já se preocupou com nunca ter trabalhado com Eng. Civil e Logística?"
-.. "Claro que nao, o meu resultado depende diretamente disso."
-.. "Existe diferença entre trabalho e vocação. Tenha vocação."
-.. "Estamos usando tecnologia de ponta. Databricks, AWS. Tudo muito atual."
-.. "Eh uma equação... trabalhar com o que gosta, ser reconhecido financeiramente."
-
-.. Deixei claro que estou na Maggu para aprender e para colocar canivete meu repoertorio  
 
