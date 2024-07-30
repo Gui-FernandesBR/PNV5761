@@ -32,7 +32,7 @@ A primeira etapa será trabalhar com variáveis reais nao negativas.
 Forma padrão do problema de programação linear
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Na forma padra, vamos minimizar a função objetivo
+Na forma padrão, vamos minimizar a função objetivo
 
 todas as variáveis sao nao negativas.
 
@@ -89,7 +89,7 @@ subject to
     -2x1 + (23/6)x2 + 3x3 - 2x4 + 4x5 = 11
 -(7/2)x1 +      7x2 + 6x3 - 4x4 + 6x5 = 18
 
-todo x eh maior igual a 0
+todo x é maior igual a 0
 
 Vamos fazer esse problema ficar expressado em termos de x1 e x2 apenas.
 

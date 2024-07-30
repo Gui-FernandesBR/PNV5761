@@ -10,7 +10,7 @@ Professor começa pela questão de numero 7
 Vi que o prof escolheu 8 e 6 padrões de corte diferentes.
 
 1a serie de problemas possui data de entrega para o dia 23/julho.
-"Fazer em pouco tempo eh muito difícil, quanto mais tempo vc tem, mais vc consegue melhorar."
+"Fazer em pouco tempo é muito difícil, quanto mais tempo vc tem, mais vc consegue melhorar."
 
 
 - Prof agora ataca o numero 8
