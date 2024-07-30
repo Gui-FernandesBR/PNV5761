@@ -41,6 +41,8 @@ Queremos minimizar o tempo total de limpeza da instalação.
 Restrições
 ^^^^^^^^^^
 
+Note que com as três primeiras restrições, somente, nós ainda podemos ter sub-roteiros.  
+
 #. Cada cor pode preceder uma única cor:
 
     .. math::
@@ -63,3 +65,14 @@ Restrições
     .. math::
 
         \sum_{j=1}^{n} \sum_{i=1}^{n} x_{ij} = n - 1
+
+#. Evitar sub-roteiros
+
+    Seja Q um subconjunto de cores, tal que :math:`|Q| \geq 2`.
+    Vamos garantir que não haja sub-roteiros dentro de Q, para tanto:
+
+    .. math::
+
+        \sum_{i \in Q} \sum_{j \neq i, j \in Q} x_{ij} \leq |Q| - 1
+
+    Essa é a formulação de Danzig, apesar de não ser a única.
