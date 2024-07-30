@@ -29,7 +29,7 @@ Avaliação
     - Representam 40% da nota
     - Serão 3 provas até o final desse quadrimestre.
     - As provas somente são aplicadas quando o modulo for encerrado. O professor deve avisar antecipadamente.
-    - O terceiro modulo nao tem prova, enquanto o segundo tem duas.
+    - O terceiro modulo não tem prova, enquanto o segundo tem duas.
     - Cada prova tem em torno de 1 hora e meia, começando as 11hrs.
     - **As provas têm mais relação com as listas de problemas de modelagem em aula do que com a serie de problemas**. Estude sobre as aulas para poder ir bem nas provas.
 - Series de problemas

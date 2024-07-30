@@ -6,8 +6,6 @@ Aluno: Guilherme Fernandes Alves; Nº USP: 10774361
 
 PNV5761 - Programação matemática aplicada a problemas de transporte.
 
-.. TODO: colocar essas informações no cabeçalho.
-
 .. include:: problema_1.rst
 .. include:: problema_2.rst
 .. include:: problema_3.rst

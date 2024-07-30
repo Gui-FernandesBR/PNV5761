@@ -7,16 +7,18 @@ Enunciado
 Uma empresa de geração de energia elétrica fez uma projeção da demanda por energia para 5 anos futuros, em 10^6 kWh, a saber: 80, 100, 120, 140, 160.
 A empresa possui 4 formas de suprir esta demanda, a partir da construção de usinas, tendo os seguintes custos e capacidades:
 
-=====  ===========  ============  ============
-Usina  Capacidade   Custo de      Custo Anual
-       (10^6 kwh)   Construção    de Operação
-                    (10^6 $)      (10^6 $)
-=====  ===========  ============  ============
-1       70           20            1.5
-2       50           16            0.8
-3       60           18            1.3
-4       40           14            0.6
-=====  ===========  ============  ============
++-------+-------------+----------------+----------------+
+| Usina | Capacidade  | Custo de       | Custo Anual    |
+|       | (10^6 kwh)  | Construção     | de Operação    |
++=======+=============+================+================+
+| 1     | 70          | 20             | 1.5            |
++-------+-------------+----------------+----------------+
+| 2     | 50          | 16             | 0.8            |
++-------+-------------+----------------+----------------+
+| 3     | 60          | 18             | 1.3            |
++-------+-------------+----------------+----------------+
+| 4     | 40          | 14             | 0.6            |
++-------+-------------+----------------+----------------+
 
 Parte A
 ^^^^^^^
@@ -28,21 +30,20 @@ Parte B
 
 Suponha que no começo do ano 1 todas estão abertas e que a empresa gestora poderá fechar qualquer uma das usinas ao final de um ano ou abrir uma usina fechada no início de um ano, mediante os custos abaixo mostrados. Como ficaria o modelo, para atender a demanda dos 5 anos a um custo mínimo?
 
-.. TODO: essa tabela esta saindo bem mal formatada. Testar outras formas de fazer isso.
++-------+-----------+----------+
+| Usina | Custo de  | Custo de |
+|       | Re-abrir  | Fechar   |
++=======+===========+==========+
+| 1     | 1.9       | 1.7      |
++-------+-----------+----------+
+| 2     | 1.5       | 1.2      |
++-------+-----------+----------+
+| 3     | 1.6       | 1.3      |
++-------+-----------+----------+
+| 4     | 1.1       | 0.8      |
++-------+-----------+----------+
 
-
-=====  =========  ==========
-Usina  Custo de   Custo de
-       Re-abrir   Fechar
-       (10^6 $)   (10^6 $)
-=====  =========  ==========
-1      1.9        1.7
-2      1.5        1.2
-3      1.6        1.3
-4      1.1        0.8
-=====  =========  ==========
-
-
+Todos os custos foram passados em 10^6 $.
 
 Resolução
 ---------

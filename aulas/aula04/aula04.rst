@@ -24,9 +24,9 @@ A ideia da disciplina é que vamos ver a base fundamental da resolução de prob
 
 Até aqui, criamos modelos que possuem funções objetivo lineares em torno da variável de decisão, bem como restrições lineares.
 
-Vamos trabalhar com variáveis inteiras, reais nao negativas e binarias.
+Vamos trabalhar com variáveis inteiras, reais não negativas e binarias.
 
-A primeira etapa será trabalhar com variáveis reais nao negativas.
+A primeira etapa será trabalhar com variáveis reais não negativas.
 
 
 Forma padrão do problema de programação linear
@@ -34,7 +34,7 @@ Forma padrão do problema de programação linear
 
 Na forma padrão, vamos minimizar a função objetivo
 
-todas as variáveis sao nao negativas.
+todas as variáveis sao não negativas.
 
 todas as restrições sao equações (ao invés de inequações).
 
@@ -58,7 +58,7 @@ Diz-se que x* é solução viável do problema de programação linear (PPL) na 
     x* \in F
     cx* <= cx' para todo x' \in F
 
-    Obs.: Note que essa definição nao garante que x* seja único.
+    Obs.: Note que essa definição não garante que x* seja único.
 
 Formas alternativas de problema de programação linear
 -----------------------------------------------------
@@ -95,6 +95,6 @@ Vamos fazer esse problema ficar expressado em termos de x1 e x2 apenas.
 
 Professor vai usar o método de Gauss-Jordan, porem ...
 
-Passo 1: fazer com que x3 tenha coeficiente 1 e nao apareça nas equações 2 e 3
+Passo 1: fazer com que x3 tenha coeficiente 1 e não apareça nas equações 2 e 3
 
 
