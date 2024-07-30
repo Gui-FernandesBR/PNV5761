@@ -63,7 +63,7 @@ a. O modelo matemático para selecionar os pedidos que serão aceitos é o segui
 
             \sum_{K=1}^{m} a_{K} \cdot b_{Kt} \cdot x_{K} \leq n_{t}, \forall t = 1, 2, ..., N
 
-        Note que :math:`x_{K}` é uma variável binaria.
+        Note que :math:`x_{K}` é uma variável binária.
 
  
 b. Modelo mais complicado:

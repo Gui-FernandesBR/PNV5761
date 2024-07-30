@@ -40,7 +40,7 @@ Variáveis de decisão
 - :math:`z_{k}`: 1 se o centro de distribuição :math:`k` for instalado, 0 caso contrário.
 
 Função Objetivo
-^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^
 
 Queremos minimizar o custo total, que por sua vez pode ser dividido em diversos custos:
 
@@ -100,7 +100,7 @@ Restrições
 
 #. Balanco de massa do CD
 
-    Tudo que entra, sai. No longo prazo, o CD nao é produtor nem consumidor de produtos.
+    Tudo que entra, sai. No longo prazo, o CD não é produtor nem consumidor de produtos.
 
     .. math::
 

@@ -152,7 +152,7 @@ A função, portanto, deverá ficar com a seguinte forma:
 Restrições
 ^^^^^^^^^^
 
-.. Professor recomendou olhar restrições de demanda mês a mês, e não a demanda total do ano. Isso pq vc pode acabar nao dando conta de atender a demanda total. 
+.. Professor recomendou olhar restrições de demanda mês a mês, e não a demanda total do ano. Isso pq vc pode acabar não dando conta de atender a demanda total. 
 .. Ele sugere algo como: p_{j} + e_{j-1} + da_{j} = d_{j} + e_{j} + 
 
 #. Restrição de demanda (eq. "j" e "m")
@@ -195,7 +195,7 @@ Restrições
 
     Restrições de não negatividade (estoque, horas extras, contratação, demissão, demanda não atendida)
 
-    .. nao é somente dizer que a variável eh não negativa, mas sim especificar o espaço de busca (dizer que sao inteiras importa).
+    .. não é somente dizer que a variável é não negativa, mas sim especificar o espaço de busca (dizer que sao inteiras importa).
 
     Apesar de parecer óbvias em muitos dos casos, podemos definir explicitamente:
 

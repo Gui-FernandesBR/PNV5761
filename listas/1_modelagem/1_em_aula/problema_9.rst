@@ -1,7 +1,7 @@
 Problema 9
 ==========
 
-Problema tipico de atendimento de emergências, onde a prioridade nao é custo, senão que o atendimento à população.
+Problema tipico de atendimento de emergências, onde a prioridade não é custo, senão que o atendimento à população.
 
 Enunciado
 ---------
@@ -130,7 +130,7 @@ Diz-se que uma região :math:`j` tem cobertura reserva se ela pode ser atendida,
 
     \sum_{i=1}^{n} a_{ij} \cdot x_{i} \geq 2,
 
-Introduzimos, então, uma nova variável binaria :math:`w_{j}` que indica se a região :math:`j` tem cobertura reserva (restrição acima atendida) ou não.
+Introduzimos, então, uma nova variável binária :math:`w_{j}` que indica se a região :math:`j` tem cobertura reserva (restrição acima atendida) ou não.
 
 Agora podemos formalizar matematicamente:
 

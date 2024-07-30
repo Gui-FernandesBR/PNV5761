@@ -4,7 +4,7 @@ Problema 11
 Professor diz que este problema é análogo ao problema do caixeiro viajante, um problema clássico de otimização combinatória.
 
 Uma das restrições mais importantes nesse problema é a questão de se evitar sub-ciclos.
-Isso porque às vezes podemos ter 2 sub-ciclos que juntos atendem todos os nos de demanda. 
+Isso porque às vezes podemos ter 2 sub-ciclos que juntos atendem todos os nós de demanda. 
 
 Há pelo menos 2 formas de se resolver a questão dos sub-ciclos.
 
