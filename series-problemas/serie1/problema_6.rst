@@ -22,11 +22,11 @@ Apresente sua proposta para acondicionamento das caixas nos contêineres.
 Resolução
 ---------
 
-.. Não lembro de nenhum problema de posicionamento nas aulas. Mas acho que é parecido com o problema do corte.
-.. É um problema classico de empactoamento.
-.. O problema comecar com "gerar os possiveis arranjos."
-.. o posicionamento no conteiner é unidimensional.
-.. Podem acahar a solucao do problema no solver, optional.
+
+É um problema clássico de empacotamento, o problema pode começar pela geração dos possíveis arranjos.
+O posicionamento no contêiner é unidimensional.
+
+.. Podem achar a solução do problema no solver, optional.
 
 
 Notação
@@ -73,9 +73,9 @@ com 4 sabores.
 No exemplo especifico, temos 126 arranjos possíveis.
 
 Seria possível, evidentemente, elaborar uma matriz com todas as combinações
-possíveis e até mesmo verificar quais combinacoes maximizariam o espaco utilizado
-no conteiner, porem isso seria desnecessário e ineficiente.
-Para a sequencia do execicio, basta saber que temos 126 arranjos possíveis. 
+possíveis e até mesmo verificar quais combinações maximizariam o espaço utilizado
+no contêiner, porem isso seria desnecessário e ineficiente.
+Para a sequencia do execício, basta saber que temos 126 arranjos possíveis. 
 
 
 Variáveis de decisão
@@ -102,11 +102,15 @@ Restrições
 
     Evidentemente precisamos garantir que a demanda seja completamente atendida.
 
-    .. tem uma equacao de demanda para cada tamanho de caixa.
-
     .. math::
 
-        \sum_{j=1}^{126} a_{ij} \cdot x_{j} ...
+        \sum_{j=1}^{126} a_{i=8.0,j} \cdot x_{j} \geq 1200
+
+        \sum_{j=1}^{126} a_{i=7.0,j} \cdot x_{j} \geq 2800
+
+        \sum_{j=1}^{126} a_{i=5.5,j} \cdot x_{j} \geq 3000
+
+        \sum_{j=1}^{126} a_{i=3.5,j} \cdot x_{j} \geq 4000
 
 #. Capacidade dos contêineres
 
@@ -122,16 +126,30 @@ Restrições
 #. Nao queremos enviar mais do que a demanda
 
     Essa é uma parte bastante interessante do problema e que não pode ser ignorada.
+    A demanda é conhecida, e não queremos enviar mais do que a demanda.
+    Assim, precisamos garantir que a quantidade de caixas enviadas não exceda
+    a demanda.
+
+    .. math::
+
+        \sum_{j=1}^{126} a_{ij} \cdot x_{j} \leq d_{i}, \forall i \in \{8.0, 7.0, 5.5, 3.5\}
+
+
 
 Espaço das variáveis
 ^^^^^^^^^^^^^^^^^^^^
 
-De maneira mais simples, é possivel afirmar que a variavel x deve ser sempre um numero inteiro. 
+De maneira mais simples, é possível afirmar que a variável :math:`x` deve ser sempre um numero inteiro. 
 
 .. math::
 
     x \in \mathbb{N}
 
-Entretanto, podemos restringir ainda mais o espaco dessa variavel se calcularmos a quantidade maxima de arranjos que se pode fazer com as caixas disponiveis.
+Entretanto, podemos restringir ainda mais o espaço dessa variável uma vez que já
+calculamos a quantidade maxima de arranjos que se pode fazer com as caixas disponíveis.
+
+.. math::
+
+    x \in \{1, 2, ..., 126\} \subset \mathbb{N}
 
 
