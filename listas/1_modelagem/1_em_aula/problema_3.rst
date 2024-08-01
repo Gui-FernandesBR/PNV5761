@@ -43,9 +43,9 @@ a.  Modelo matemático para alocar o tempo de cada máquina à produção das di
 
     subject to:
 
-    .. math
+    .. math::
 
-        .. \sum_{j=1}^{x} \alpha_{ij} \leq 1, \quad \forall i = 1, 2, 3, 4, 5, 6
+        \sum_{j=1}^{4} \alpha_{ij} \leq 1, \quad \forall i = 1, 2, 3, 4, 5, 6
 
     
     Convenientemente, podemos linearizar a definição de y, que é uma restrição logica, substituindo por restrições algébricas.
@@ -70,12 +70,16 @@ b. Modelo com consideração de setup time:
 
         x_3 = \sum_{i=1}^{6} z_i \cdot n_{i3}
 
-    Se :math:`z_{4} = 1`, a peça 4 somente usina a peça 3.
+    Se :math:`z_{4} = 1`, a máquina 4 somente usina a peça 3.
     Então quanto vale :math:`\alpha_{41}`, :math:`\alpha_{42}` e :math:`\alpha_{43}`?
 
     .. math::
 
         z_{4} + \sum_{j=1 \neq 3}^{4} \alpha_{4j} = 1
+
+    Podemos generalizar a última equação para todas as máquinas:
+
+    .. math::
 
         z_{i} + \alpha_{i1} + \alpha_{i2} + \alpha_{iy} \leq 1
 

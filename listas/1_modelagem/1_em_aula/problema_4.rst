@@ -61,7 +61,7 @@ Lembre-se que não há custo para transportar contêineres vazios.
 
 .. math::
 
-    \text{min} \sum_{i=1}^{n-1} \sum_{j=i+1}^{n} \left( f_{ij}^{d} \cdot x_{ij}^{d} + f_{ij}^{r} \cdot x_{ij}^{r} \right)
+    \text{max} \sum_{i=1}^{n-1} \sum_{j=i+1}^{n} \left( f_{ij}^{d} \cdot x_{ij}^{d} + f_{ij}^{r} \cdot x_{ij}^{r} \right)
 
 Restrições
 ^^^^^^^^^^
@@ -73,13 +73,13 @@ Restrições
 
     .. math::
 
-        \sum_{i=1}^{n} x_{ij}^{d} \leq d_{ij}, \quad \forall j \quad \text{onde} \quad i < j
+        x_{ij}^{d} \leq d_{ij}, \quad \forall j \quad \text{onde} \quad i < j
 
 #. A demanda de transporte de contêineres refrigerados entre os portos i e j deve ser atendida:
 
     .. math::
 
-        \sum_{i=1}^{n} x_{ij}^{r} \leq r_{ij}, \quad \forall j \quad \text{onde} \quad i < j
+        x_{ij}^{r} \leq r_{ij}, \quad \forall j \quad \text{onde} \quad i < j
 
 
 #. Capacidade do navio

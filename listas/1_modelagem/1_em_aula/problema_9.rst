@@ -50,7 +50,7 @@ Vamos minimizar o numero de postos instalados, já que o enunciado não fala de 
 
 .. math::
 
-    \sum_{i=1}^{m} x_{i}
+    \text{min} \sum_{i=1}^{m} x_{i}
 
 Restrições
 """"""""""
@@ -61,7 +61,7 @@ Então:
 
 .. math::
 
-    \sum_{i=1}^{m} a_{ij} \cdot x_{i} \geq 1, \forall j = 1, 2, ..., m
+    \sum_{i=1}^{n} a_{ij} \cdot x_{i} \geq 1, \forall j = 1, 2, ..., m
 
 Espaço das variáveis
 """"""""""""""""""""
