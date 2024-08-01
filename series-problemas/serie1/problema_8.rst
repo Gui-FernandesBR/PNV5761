@@ -22,7 +22,7 @@ Resolução
 .. Existem locais candidatos para a construção do novo terminal de contêineres vazios (em geral sao locais mais afastados do porto).
 .. É como no caso do bagaço de cana...
 .. Tem que escolher 1 local para a construção do novo terminal.
-.. Essa questao é maior parecida com a vida real, pois enm sempre temos 
+.. Essa questao é maior parecida com a vida real, pois enm sempre temos os dados relevantes para o problema
 .. "Vcs tem 2 semanas, a partir de hoje, para entregar a serie."
 .. Professor não pode ajudar com resolucao.
 
@@ -38,5 +38,8 @@ Função objetivo
 
 Restrições
 ^^^^^^^^^^
+
+Espaço das variáveis
+^^^^^^^^^^^^^^^^^^^^
 
 

@@ -1,8 +1,10 @@
 2ª QUESTÃO
 ==========
 
+.. Precisa alterar toda essa resolução pois não considerei o tempo de uso...
+
 João é fiel comprador de um modelo tradicional de automóvel, com pouquíssimas modificações de um ano para outro, e é muito metódico.
-Assim, ele consegue fazer boas previsões das despesas anuais de manutenção e do preço de revenda do carro em função do tempo de uso.
+Assim, ele consegue fazer boas previsões das despesas anuais de manutenção e do preço de revenda do carro em **função do tempo de uso**.
 É importante destacar que João somente compra carro novo.
 João tem hoje um carro com exatamente 2 anos de uso e deseja programar as aquisições e revendas de carro para os próximos 10 anos.
 Proponha um modelo matemático para ajudar João a resolver seu problema.
@@ -96,3 +98,15 @@ Espaço das variáveis
 - :math:`x_t \in \{0, 1\} \forall t`.
 - :math:`y_t \in \{0, 1\} \forall t`.
 - :math:`m` é um índice de mês, com :math:`m = 1, 2, \ldots, 120`.
+
+Comentários
+-----------
+
+O exercício acaba se tornando bastante simples dado que não estamos considerando
+efeitos de amortização do valor do carro ao longo do tempo, nem efeitos de inflação,
+que seriam fatores importantes para a resolução do problema real e que adicionariam
+efeitos de não linearidade ao problema.
+Em outras palavras, o custo de 
+
+Foi assumido que os custos já são conhecidos previamente.
+

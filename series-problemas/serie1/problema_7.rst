@@ -34,3 +34,5 @@ Restrições
 ^^^^^^^^^^
 
 
+Espaço das variáveis
+^^^^^^^^^^^^^^^^^^^^

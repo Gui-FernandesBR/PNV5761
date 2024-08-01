@@ -8,7 +8,7 @@ Disciplina PNV5761 - Programação Matemática Aplicada a Problemas de Transport
 
 Aluno: Guilherme Fernandes Alves - Nº USP: 10774361
 
-Data de entrega: 23 de Julho de 2024
+Data de entrega: 2 de Agosto de 2024
 
 .. include:: problema_1.rst
 .. include:: problema_2.rst
