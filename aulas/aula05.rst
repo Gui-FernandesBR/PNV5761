@@ -29,7 +29,7 @@ Programação Linear
 - Se altero a função objetivo do problema, eu acabo alterando somente a inclinação da reta.
 - A solução geométrica somente pode ser feita se eu conseguir estabelecer 2 ou 3 variáveis isoladas. Mais do que isso, não consigo plotar
 - Os vertices da figura sao os pontos que maximizam ou minimizam a função objetivo.
-- Para o exemplo em questão, foram binômio(5 2) = 10 possíveis vertices, ja que temos 5 variáveis. Porem somente 5 vertices sao de fato pertencentes a região viável.
+- Para o exemplo em questão, foram binômio(5 2) = 10 possíveis vertices, já que temos 5 variáveis. Porem somente 5 vertices sao de fato pertencentes a região viável.
 - Queremos agora construir um método que seja algébrico e não geométrico para encontrar a solução ótima,
 
 
