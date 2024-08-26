@@ -1,4 +1,10 @@
+# Virtual environment
 .venv/
 venv/
 
-
+# Latex project
+*.gz
+*.log
+*.fls
+*.aux
+*latexmk
