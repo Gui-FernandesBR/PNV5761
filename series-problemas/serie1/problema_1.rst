@@ -37,10 +37,6 @@ Como ficaria o modelo matemático do problema?
 Resolução
 ---------
 
-
-Notação
-^^^^^^^
-
 - :math:`e_{j}`: estoque no início do período :math:`j`.
 - :math:`p`: produção de um operário da equipe fixa enquanto não está treinando.
 - :math:`q + k \cdot r`: produção de um aprendiz após :math:`k` períodos após o treinamento. A produção vai crescer em uma taxa constante mesmo sem receber novos treinamentos.

@@ -2,11 +2,9 @@
 1ª série de Problemas - 2024
 ============================
 
-.. TODO: colocar uma capa no trabalho
-
 Disciplina PNV5761 - Programação Matemática Aplicada a Problemas de Transportes.
 
-Aluno: Guilherme Fernandes Alves - Nº USP: 10774361
+Aluno: Guilherme Fernandes Alves - Nº USP: 10774361 - guilherme_fernandes@usp.br
 
 Data de entrega: 2 de Agosto de 2024
 
