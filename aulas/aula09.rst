@@ -43,13 +43,4 @@ O algoritmo dual simplex
 ------------------------
 
 .. pagina 118
-.. comentário sobre a lista 3, 
-.. - questão 4: nesse caso o dual simplex é mais eficiente.
-.. - Q1: parece com o que vimos em sala.
-.. - Q2: questão mais diferente do que vimos anteriormente.
-.. - Q3: problema clássico da dieta. Tabela 2 é uma tabela do simplex reduzido. A linha de cima é o vetor Pi.
-
-.. Na prova, pode usar alguma coisa computacional para as iterações.
-.. Professor pode mostrar uma prova anterior.
-.. A prova 2 é mais conceitual do que operacional.
 
