@@ -66,28 +66,21 @@ Solução básica viável:
 - Nao básicas: x1 = x2 = x4 = x6
 - Básicas: (x5 = 30000,  x3 = 10000, x7 = 0)
 
-TABELA III da pagina 49 (escrito a mao) do PDF continuação 1 
+TABELA III da pagina 49 (escrito a mao) do PDF continuação 1
 
 TABELA IV (quarta solução básica viável)
 
-A solução 4 é ótima ou nao? Sim, pois nao da pra melhorar mais.
+A solução 4 é ótima ou nao? Sim, pois não dá para melhorar mais.
 
 
 
-Como se explica geometricamente uma solução básica degenerada
-------------------------------------------------------------
-
-Suponha que estamos trabalhando com duas variáveis independentes.
+Como se explica geometricamente uma solução básica degenerada?
 
 
-Soluções degeneradas vs nao degeneradas?
-----------------------------------------
+Estudar:
+--------
 
-...
-
-Método das duas fases
-----------------------
-
-...
+- Soluções degeneradas vs nao degeneradas?
+- Método das duas fases
 
 

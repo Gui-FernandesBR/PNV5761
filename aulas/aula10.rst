@@ -1,7 +1,8 @@
 Aula 10
 =======
 
-Já terminamos o segundo módulo da disciplina, agora vamos para o último tópico, que será problemas de fluxo em redes (problemas de transbordo).
+Já terminamos o segundo módulo da disciplina, agora vamos para o último tópico,
+que será problemas de fluxo em redes (problemas de transbordo).
 
 O Problema do Transbordo
 -------------------------
@@ -15,10 +16,10 @@ O Problema do Transbordo
 - O problema consiste em: como atender todas aas demandas gastando o mínimo possível?
 - As variáveis de decisão são o fluxo em cada arco.
 - Função objetivo: minimizar o custo total. Multiplicar o custo unitário pelo fluxo em cada arco.
-- Convenção: escrever primeiro o arco que sai, depois o que entra: $x_{ij}$ é o fluxo de $i$ para $j$.
+- Convenção: escrever primeiro o arco que sai, depois o que entra: :math:`x_{ij}` é o fluxo de :math:`i` para :math:`j`.
 - Como restrições, temos:
-    - Balanço de fluxo: 
-    - Não negatividade: $x_{ij} \geq 0$.
+    - Balanço de massa: a soma dos fluxos que entram em um nó é igual à soma dos fluxos que saem.
+    - Não negatividade: :math:`x_{ij} \geq 0`.
 - a natureza das restrições: x_ij - A_ij, onde A_ij sempre terá uma componente positiva e outra negativa para cada coluna.
 - Essas são restrições muito bem estruturada.
 - O simplex revisado funciona bem para matrizes pouco densas.
@@ -29,7 +30,6 @@ O Problema do Transbordo
 - Vamos verificar a otimalidade da solução.
 - Precisamos formalizar o algoritmo.
 - O problema todo é encontrar uma solução básica inicial para o problema, o que não é nada trivial.
-- Professor gostaria que nós lêssemos todo o .pdf dessa parte, com exceção da parte 6.
 
 
 

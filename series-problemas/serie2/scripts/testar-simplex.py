@@ -1,6 +1,7 @@
 import math
-import numpy as np
 from fractions import Fraction
+
+import numpy as np
 from prettytable import PrettyTable
 
 # Considere o problema na forma padrão:

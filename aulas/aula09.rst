@@ -33,11 +33,6 @@ A tabela do simplex revisado tem que ter sempre p-1 e o vetor pi.
 
 Teve uma hora ali por volta da pagina 93 +/- em que a encerra o paragrafo com "15", mas o prof disse para considerar como "19"
 
-.. avisos:
-.. - a terceira lista vai ser sobre analise de sensibilidade.
-.. - haverá uma prova a serie 2 e uma prova para a serie 3
-.. - professor vai incluir no dia 10 no calendário pois tivemos um feriado.
-.. lista 5 deve ser algo mais simples, algo menor.
 
 O algoritmo dual simplex
 ------------------------

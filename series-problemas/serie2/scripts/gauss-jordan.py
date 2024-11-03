@@ -1,4 +1,5 @@
 from fractions import Fraction
+
 from prettytable import PrettyTable
 
 
@@ -49,16 +50,24 @@ def gauss_jordan(matrix: list[list], columns_to_normalize: list[int]):
 if __name__ == "__main__":
     # Exemplo de uso
     # fmt: off
-    A = [ 
-        [Fraction(4), Fraction(5, 6), Fraction(3), Fraction(2), Fraction(4), Fraction(29)],
-        [Fraction(-2), Fraction(23, 6), Fraction(3), Fraction(-2), Fraction(4), Fraction(11)],
-        [Fraction(-7, 2), Fraction(7), Fraction(6), Fraction(-4), Fraction(6), Fraction(18)],
+    # A = [
+    #     [Fraction(4), Fraction(5, 6), Fraction(3), Fraction(2), Fraction(4), Fraction(29)],
+    #     [Fraction(-2), Fraction(23, 6), Fraction(3), Fraction(-2), Fraction(4), Fraction(11)],
+    #     [Fraction(-7, 2), Fraction(7), Fraction(6), Fraction(-4), Fraction(6), Fraction(18)],
+    # ]
+
+    A = [
+        [Fraction(0,1), Fraction(-1, 4), Fraction(1, 1), Fraction(1,4),  Fraction(0,1), Fraction(-1,8), Fraction(0,1), Fraction(100,1)],
+        [Fraction(0,1), Fraction(5, 1),  Fraction(0, 1), Fraction(0, 1), Fraction(1,1), Fraction(-1,2), Fraction(0,1), Fraction(380,1)],
+        [Fraction(1,1), Fraction(3, 2),  Fraction(0, 1), Fraction(0, 1), Fraction(0,1), Fraction(1, 4), Fraction(0,1), Fraction(230,1)],
+        [Fraction(2,1), Fraction(4, 1),  Fraction(3, 1), Fraction(0, 1), Fraction(0,1), Fraction(0, 1), Fraction(1,1), Fraction(700,1)]
     ]
 
-    columns_to_normalize = [
+    columns_to_normalize = [ # começa a contar a partir do 0
         0, # x1
-        1, # x2
         2, # x3
+        4, # x5
+        6, # x7
     ]
 
     gauss_jordan(A, columns_to_normalize)

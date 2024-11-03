@@ -7,7 +7,6 @@ Aula 01
 - Tópicos de hoje:
     - Aula inaugural.
     - Resolução de exemplos enviados por e-mail antes da aula.
-.. Professor pediu para cada um se apresentar.
 
 
 Tópico 1 - O que nós vamos ver nessa disciplina
@@ -43,7 +42,7 @@ Tópico 2 - Introdução
 ---------------------
 
 - Para poder entender e analisar um problema real, devemos associá-lo a um modelo matemático.
-- Na construção de um modelo matemático, devemos identificar: 
+- Na construção de um modelo matemático, devemos identificar:
     - as variáveis de decisão
     - quais restrições as variáveis devem obedecer (cuidado para não esquecer das restrições óbvias)
     - a função objetivo, para podermos comparar as diversas soluções.

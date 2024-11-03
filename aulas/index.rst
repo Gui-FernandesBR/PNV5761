@@ -2,8 +2,8 @@
 Notas de aula - PNV5761
 =======================
 
-.. include:: aula01/aula01-pre.rst
-.. include:: aula01/aula01.rst
+.. include:: aula01-pre.rst
+.. include:: aula01.rst
 .. include:: aula02.rst
 .. include:: aula03.rst
 .. include:: aula04.rst
@@ -12,4 +12,5 @@ Notas de aula - PNV5761
 .. include:: aula07.rst
 .. include:: aula08.rst
 .. include:: aula09.rst
-
+.. include:: aula10.rst
+.. include:: aula11.rst

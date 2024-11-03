@@ -1,5 +1,6 @@
-import matplotlib.pyplot as plt
 from fractions import Fraction
+
+import matplotlib.pyplot as plt
 import numpy as np
 
 
@@ -47,13 +48,15 @@ def plot_2d_from_matrix(matrix, cols_var_nao_basicas):
             # )
 
     # desenha a região viavel assumindo que é a região que
-    intersections = np.array([
-        [4.5, 2.0],
-        [0.0, 2.77],
-        [0.0, 2.14],
-        [6.9, 0.0],
-        [8.9, 0.0],
-    ])
+    intersections = np.array(
+        [
+            [4.5, 2.0],
+            [0.0, 2.77],
+            [0.0, 2.14],
+            [6.9, 0.0],
+            [8.9, 0.0],
+        ]
+    )
 
     # Plotar a região viável
     ax.fill(
@@ -70,9 +73,8 @@ def plot_2d_from_matrix(matrix, cols_var_nao_basicas):
     # # fazer para z = 0, 5, 10, 15, 20
     x4 = np.linspace(0, 18, 100)
     for z in [-5, 0, 5, 10]:
-        x5 = (4/3*x4 - z)/1.9
+        x5 = (4 / 3 * x4 - z) / 1.9
         ax.plot(x4, x5, label=f"z = {z}", linestyle="--")
-    
 
     # Configurações adicionais do gráfico
     ax.set_xlim([0, max_value])
@@ -86,8 +88,8 @@ def plot_2d_from_matrix(matrix, cols_var_nao_basicas):
     ax.set_title("Representação gráfica do sistema no plano 2D")
 
     # Exibe o gráfico
-    # plt.show()
-    plt.savefig("series-problemas/serie2/Q1-grafico-com-z.pdf")
+    plt.show()
+    # plt.savefig("series-problemas/serie2/Q1-grafico-com-z.pdf")
 
 
 if __name__ == "__main__":

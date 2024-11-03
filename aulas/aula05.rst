@@ -3,15 +3,6 @@ Aula 05
 
 23 de Julho de 2024.
 
-Aviso importante, primeira prova!
----------------------------------
-
-- As 11hrs do dia 30 teremos a nossa primeira prova nessa disciplina.
-- Tema será sobre modelagem matemática.
-- A lista poderá ser entregue até a sexta-feira 2/agosto
-- para a prova, precisamos focar mais na lista de modelagem em aula (11 problemas).
-- 
-
 Programação Linear
 ------------------
 
@@ -19,7 +10,7 @@ Programação Linear
     - Todas as restrições sao na forma de igualdade
     - Trata-se de problemas de minimização.
     - Todas as variáveis sao não negativas.
-- Porem, qualquer problema de programação linear pode ser transformado para a forma padrão. 
+- Porem, qualquer problema de programação linear pode ser transformado para a forma padrão.
 - Na semana passada, também, nós começamos a falar sobre o método Gauss Jordan
 - O método Gauss Jordan é uma forma de resolver sistemas lineares e que faz parte do Simplex.
 - Professor fez a representação gráfica de um problema e desenhou a região viável.
@@ -43,7 +34,7 @@ Procedimento algébrico para resolver o problema introdutório
 
 Ou seja, eu não preciso desenhar a região viável. Eu posso simplesmente testar todos os candidatos a vertices e verificar qual deles é o melhor para a função objetivo.
 
-Como voce generalizaria esse procedimento se estou num sistema com N equações e M variáveis? 
+Como voce generalizaria esse procedimento se estou num sistema com N equações e M variáveis?
 
 Apos essa nossa primeira descoberta, chegamos a um numero:
 binômio(n n-m) = binômio(n m) alternativas
@@ -52,8 +43,6 @@ Ainda assim, vai ser totalmente inviável testar todas as alternativas. Precisam
 
 Nao vamos querer comparar soluções, o simplex vai me entregar o resultado ótimo do problema.
 
-
-.. Neste ponto, encerramos o pdf "https://edisciplinas.usp.br/pluginfile.php/8423149/mod_resource/content/1/PROGRAMA%C3%87%C3%83O_LINEAR.pdf" do moodle
 
 Busca por um algoritmo eficiente para resolver o Problema de Programação Linear na forma padrão
 ------------------------------------------------------------------------------------------------
@@ -78,7 +67,7 @@ No caso, x2 = x2 = 0 e obtém-se os valores das variáveis básicas.
 
 Se os valores de todas as variáveis básicas sao não negativas, diz-se que a solução básica é viável.
 
-Associação entre geometria e algebra: 
+Associação entre geometria e algebra:
 - Um vértice esta associado ao uma solução básica
 - Um vértice viável esta associado a uma solução básica viável
 

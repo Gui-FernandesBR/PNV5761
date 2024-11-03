@@ -1,5 +1,6 @@
-import matplotlib.pyplot as plt
 from fractions import Fraction
+
+import matplotlib.pyplot as plt
 import numpy as np
 
 
@@ -66,13 +67,15 @@ def plot_2d_from_matrix(matrix, cols_var_nao_basicas):
     #     np.argsort(np.arctan2(intersections[:, 1], intersections[:, 0]))
     # ]
 
-    intersections = np.array([
-        [4.5, 2.0],
-        [0.0, 2.77],
-        [0.0, 2.14],
-        [6.9, 0.0],
-        [8.9, 0.0],
-    ])
+    intersections = np.array(
+        [
+            [4.5, 2.0],
+            [0.0, 2.77],
+            [0.0, 2.14],
+            [6.9, 0.0],
+            [8.9, 0.0],
+        ]
+    )
 
     # Plotar a região viável
     ax.fill(

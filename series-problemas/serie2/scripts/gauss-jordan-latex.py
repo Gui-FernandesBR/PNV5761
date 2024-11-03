@@ -1,4 +1,5 @@
 from fractions import Fraction
+
 from prettytable import PrettyTable
 
 
