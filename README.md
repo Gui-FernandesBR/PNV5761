@@ -17,7 +17,7 @@ Infelizmente o repositório não está completo, o que significa dizer que nem t
             <td style="text-align: center;">PIX</td>
          </tr>
          <tr>
-            <td style="text-align: center;"><img alt="PIX QR Code" src="./.github/PIX.png" width="200" height="200"></td>
+            <td style="text-align: center;"><img alt="PIX QR Code" src="https://raw.githubusercontent.com/Gui-FernandesBR/PNV5761/refs/heads/master/.github/pix.png?token=GHSAT0AAAAAACTACGACCI2KJXLVL7H5MYD2ZZIDSEQ" width="200" height="200"></td>
          </tr>
          <tr>
             <td style="text-align: center;">7b2a7971-80dd-4f42-ac8b-f159926c5c04</td>

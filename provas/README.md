@@ -27,6 +27,6 @@
 
 ## obs
 
-- O Prof. divulgou algumas provas antigas para estudarmos para as provas.
+- O Prof. divulgou algumas provas antigas para estudarmos para as provas. Eu coloquei elas aqui também.
 - Tente ver com o pessoal da naval se eles têm acesso ao drive da Naval. Em geral algumas provas e exercícios já estão lá. Inclusive, se estiver no desespero, vale ler os exercícios de graduação também, é bem parecido (Naval Crau!!).
 - Recomendação master: jamais tente chegar "seco" na prova, você vai se ferrar. Mas se isso acontecer, engole o choro e vai pra prova mesmo assim, pede pra entregar um pouco atrasado e tenta fazer o que der. O importante é fazer. Se você faltar nas provas e não fizer as listas, fica difícil do professor te ajudar.
